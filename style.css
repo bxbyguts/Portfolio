@@ -15,6 +15,10 @@ nav a:last-child {
 nav {
     text-align: center;
 }
+nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Add a 1px solid faint white border at the bottom */
+    padding-bottom: 10px; /* Add some padding at the bottom to separate the border from the navigation links */
+}
 h1 {
     margin-bottom: 5px; /* Reduce the margin bottom of h1 elements */
 }
