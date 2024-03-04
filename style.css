@@ -32,7 +32,7 @@ h1 {
     margin: 0 auto; /* Center the text block horizontally */
     padding: 20px; /* Add some padding around the text */
     background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent black background */
-    border-radius: 10px; /* Add rounded corners */
+    border-radius: 5px; /* Add rounded corners */
 }
 
 .text-block h2 {
