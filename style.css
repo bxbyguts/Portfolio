@@ -15,17 +15,16 @@ nav a:last-child {
 nav {
     text-align: center;
 }
-nav {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Add a 1px solid faint white border at the bottom */
-    padding-bottom: 10px; /* Add some padding at the bottom to separate the border from the navigation links */
-}
 #navbar {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 170px;
     z-index: 1000; /* Ensure the navigation bar stays on top of other content */
-    background-color: black; /* Change to your desired background color */
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%); /* Black to transparent gradient */
     color: white; /* Change to your desired text color */
+    padding: 15px 10px; /* Adjust padding for better readability */
+    border: none; /* Remove the border */
 }
 h1 {
     margin-bottom: 5px; /* Reduce the margin bottom of h1 elements */
