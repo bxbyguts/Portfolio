@@ -63,3 +63,6 @@ footer {
     max-width: 1200px; 
     margin: 0 auto;
 }
+.black-and-white {
+    filter: grayscale(100%);
+}
