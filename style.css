@@ -1,1 +1,17 @@
 /* your styles will go here!! */
+nav a {
+    font-family: 'Instrument Serif', serif;
+    font-size: larger;
+    color: white;
+    margin-right: 20px; /* Add margin between the links */
+    text-decoration: none; /* Remove underline */
+}
+
+nav a:last-child {
+    margin-right: 0; /* Remove margin from the last link */
+}
+
+/* Center the navigation links */
+nav {
+    text-align: center;
+}
