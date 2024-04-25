@@ -37,6 +37,7 @@
             font-style: italic;
         }
     </style>
+    
 </head>
 <body>
     <header id="navbar">
@@ -64,10 +65,73 @@
             <br>
             <br>
             <br>
-               
-            
-        </main>
-        <footer>
-
-        </footer>
-    </body>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Flex Grid</title>
+                <style>
+                    .grid-container {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 20px; /* Adjust the gap between items */
+                        padding: 20px; /* Adjust the container padding */
+                    }
+                
+                    .grid-item {
+                        flex: 1 0 200px; /* Adjust item width */
+                        min-width: 200px; /* Adjust minimum item width */
+                        background-color: #ddd; /* Background color of items */
+                        padding: 20px; /* Adjust item padding */
+                        border-radius: 10px; /* Adjust item border radius */
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Item shadow */
+                    }
+                </style>
+                <body>
+                    <header id="navbar">
+                        <a href="index.html">
+                            <center>
+                                <img class="toplogo" alt="Clark Molfetta⋆" src="Clark Molfetta Star.png" width="280" height="70">
+                            </center>
+                        </a>
+                        <nav>
+                            <center>
+                                <a href="aboutme.html">About Me</a>
+                                <a href="#">Commission Work</a>
+                                <a href="academicwork.html">Academic Work</a>
+                                <a href="#">Personal Projects</a>
+                                <a href="#">Social Media</a>
+                                <a href="#">Contact Me Here</a> 
+                            </center>
+                        </nav>
+                    </header>
+                    <main>
+                        <br><br><br><br><br><br><br>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <div class="background-image" style="background-image: url('image1.jpg');"></div>
+                                <div class="text-overlay">
+                                    <h3>Title</h3>
+                                    <p class="caption">Caption</p>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="background-image" style="background-image: url('image2.jpg');"></div>
+                                <div class="text-overlay">
+                                    <h3>Title</h3>
+                                    <p class="caption">Caption</p>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="background-image" style="background-image: url('image3.jpg');"></div>
+                                <div class="text-overlay">
+                                    <h3>Title</h3>
+                                    <p class="caption">Caption</p>
+                                </div>
+                            </div>
+                            <!-- Add more grid items as needed -->
+                        </div>
+                    </main>
+                    <footer>
+                
+                    </footer>
+                </body>
+                </html>
