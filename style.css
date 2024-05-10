@@ -96,20 +96,6 @@ footer {
     padding: 20px; /* Adjust the container padding */
 }
 
-.grid-item {
-    position: relative;
-    flex: 0 0 calc(33.33% - 20px); /* Adjust item width */
-    background-color: #ddd; /* Background color of items */
-    padding: 20px; /* Adjust item padding */
-    border-radius: 10px; /* Adjust item border radius */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Item shadow */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; /* Stack items vertically */
-    overflow: hidden; /* Hide overflowing content */
-}
-
 /* Adjust the size of the grid items to be squares */
 .grid-item::before {
     content: "";
@@ -151,7 +137,10 @@ footer {
 
 .grid-item {
     position: relative;
-    flex: 0 0 calc(100% - 20px); /* Adjust item width */
+    flex: 1 0 calc(100% - 250px); !important; /* Adjust item width */
+    width: 500px;
+    height: 500px;
+    min-width: 250px;
     background-color: #ddd; /* Background color of items */
     padding: 20px; /* Adjust item padding */
     border-radius: 10px; /* Adjust item border radius */
