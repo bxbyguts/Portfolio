@@ -148,7 +148,7 @@ footer {
 
 .grid-item {
     position: relative;
-    flex: 0 0 calc(33.33% - 20px); /* Adjust item width */
+    flex: 0 0 calc(100% - 20px); /* Adjust item width */
     background-color: #ddd; /* Background color of items */
     padding: 20px; /* Adjust item padding */
     border-radius: 10px; /* Adjust item border radius */
