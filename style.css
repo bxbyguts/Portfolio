@@ -124,10 +124,10 @@ footer {
 .text-overlay h3,
 .text-overlay p {
     margin: 0;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Instrument Serif', Serif;
     font-size: xx-large;
-    text-shadow: 1px 1.5px #adadad;
+    text-shadow: 1px 1.5px #000000;
 }
 
 .caption {
