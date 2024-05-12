@@ -71,7 +71,7 @@ main {
 .mainphoto {
     max-width: 100%;
     height: auto;
-    margin-top: 20px; /* Adjust margin as needed */
+    margin-top: 20px;
 }      
 
 footer {
@@ -92,8 +92,8 @@ footer {
 .grid-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Adjust the gap between items */
-    padding: 20px; /* Adjust the container padding */
+    gap: 20px;
+    padding: 20px;
 }
 
 .grid-item {
@@ -134,4 +134,60 @@ footer {
     font-size: smaller;
     font-family: 'Instrument Serif', Serif;
     font-style: italic;
+}
+
+.contact-box {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Instrument Serif", Serif;
+    font-size: xx-large;
+}
+
+.contact-box form label {
+    display: block;
+    margin-bottom: 3px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: "Instrument Serif", Serif;
+    font-size: x-large;
+}
+
+.contact-box form input[type="text"],
+.contact-box form input[type="email"],
+.contact-box form textarea {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.contact-box form textarea {
+    resize: vertical;
+}
+
+.contact-box form button {
+    width: 100% - 50px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contact-box form button:hover {
+    background-color: #aeadad;
 }
