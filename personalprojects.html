@@ -37,21 +37,22 @@
             font-style: italic;
         }
         .grid-container {
-                        display: flex;
-                        flex-wrap: wrap;
-                        gap: 20px;
-                        padding: 20px;
-                    }
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px; 
+        }
                 
-                    .grid-item {
-                        flex: 1 0 200px;
-                        min-width: 200px;
-                        background-color: #ddd;
-                        padding: 20px;
-                        border-radius: 10px;
-                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-                    }
+        .grid-item {
+            flex: 1 0 200px;
+            min-width: 200px;
+            background-color: #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
     </style>
+    
 </head>
 <body>
     <header id="navbar">
@@ -82,26 +83,23 @@
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <title>Flex Grid</title>
-                <style>
-                    
-                </style>
                     <main>
                         <br><br><br>
                         <div class="grid-container">
-                            <div class="grid-item">
-                                <div class="background-image" style="background-image: url('Russian\ Constructivist\ Recolors.png');"></div>
-                                <div class="text-overlay">
-                                    <h3>Russian Constructivist Recolors</h3>
-                                    <p class="caption">Shape and Color Exercise</p>
-                                </div>
-                            </div>
-                            <div class="grid-item">
-                                <div class="background-image" style="background-image: url('m1k3y.png');"></div>
+                            <div class="grid-item" style="background-image: url('m1k3y.png');">
                                 <div class="text-overlay">
                                     <h3>Logo Experimentation</h3>
                                     <p class="caption">Friend's Twitch Logo</p>
                                 </div>
                             </div>
+                            <div class="grid-item" style="background-image: url('Russian\ Constructivist\ Recolors.png');">
+                                <div class="text-overlay">
+                                    <h3>Russian Constructivist Recolors</h3>
+                                    <p class="caption">Color + Shape Exploration</p>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </main>
                     <footer>
                 
