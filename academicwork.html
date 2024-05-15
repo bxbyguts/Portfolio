@@ -36,6 +36,21 @@
         .welcome {
             font-style: italic;
         }
+        .grid-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px; 
+        }
+                
+        .grid-item {
+            flex: 1 0 200px;
+            min-width: 200px;
+            background-color: #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
     </style>
     
 </head>
@@ -68,41 +83,6 @@
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <title>Flex Grid</title>
-                <style>
-                    .grid-container {
-                        display: flex;
-                        flex-wrap: wrap;
-                        gap: 20px;
-                        padding: 20px; 
-                    }
-                
-                    .grid-item {
-                        flex: 1 0 200px;
-                        min-width: 200px;
-                        background-color: #ddd;
-                        padding: 20px;
-                        border-radius: 10px;
-                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                    }
-                </style>
-                <body>
-                    <header id="navbar">
-                        <a href="index.html">
-                            <center>
-                                <img class="toplogo" alt="Clark Molfetta⋆" src="Clark Molfetta Star.png" width="280" height="70">
-                            </center>
-                        </a>
-                        <nav>
-                            <center>
-                                <a href="aboutme.html">About Me</a>
-                                <a href="commisionwork.html">Commission Work</a>
-                                <a href="academicwork.html">Academic Work</a>
-                                <a href="personalprojects.html">Personal Projects</a>
-                                <a href="#">Social Media</a>
-                                <a href="contactmehere.html">Contact Me Here</a> 
-                            </center>
-                        </nav>
-                    </header>
                     <main>
                         <br><br><br>
                         <div class="grid-container">
